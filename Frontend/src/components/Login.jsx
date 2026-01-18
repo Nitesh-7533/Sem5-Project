@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import { useForm } from "react-hook-form";
 import axios from "axios";
 import toast from "react-hot-toast";
+
+
 function Login() {
   const {
     register,
@@ -40,6 +42,7 @@ function Login() {
     <div>
       <dialog id="my_modal_3" className="modal">
         <div className="modal-box">
+         
           <form onSubmit={handleSubmit(onSubmit)} method="dialog">
             {/* if there is a button in form, it will close the modal */}
             <Link
@@ -51,6 +54,8 @@ function Login() {
             </Link>
 
             <h3 className="font-bold text-lg">Login</h3>
+
+
             {/* Email */}
             <div className="mt-4 space-y-2">
               <span>Email</span>
@@ -62,12 +67,16 @@ function Login() {
                 {...register("email", { required: true })}
               />
               <br />
+
+
               {errors.email && (
                 <span className="text-sm text-red-500">
                   This field is required
                 </span>
               )}
             </div>
+
+
             {/* password */}
             <div className="mt-4 space-y-2">
               <span>Password</span>
@@ -79,6 +88,8 @@ function Login() {
                 {...register("password", { required: true })}
               />
               <br />
+
+
               {errors.password && (
                 <span className="text-sm text-red-500">
                   This field is required

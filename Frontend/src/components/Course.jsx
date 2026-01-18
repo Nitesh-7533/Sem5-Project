@@ -2,6 +2,10 @@ import React, { useEffect, useState } from "react";
 import Cards from "./Cards";
 import axios from "axios";
 import { Link } from "react-router-dom";
+
+// console.log(list)
+
+//api call for recive data
 function Course() {
   const [book, setBook] = useState([]);
   useEffect(() => {
@@ -16,22 +20,18 @@ function Course() {
     };
     getBook();
   }, []);
+
+  
   return (
     <>
       <div className=" max-w-screen-2xl container mx-auto md:px-20 px-4">
         <div className="mt-28 items-center justify-center text-center">
-          <h1 className="text-2xl  md:text-4xl">
+          <h1 className="text-2xl  md:text-4xl mt-6">
             We're delighted to have you{" "}
             <span className="text-pink-500"> Here! :)</span>
           </h1>
           <p className="mt-12">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro,
-            assumenda? Repellendus, iste corrupti? Tempore laudantium
-            repellendus accusamus accusantium sed architecto odio, nisi expedita
-            quas quidem nesciunt debitis dolore non aspernatur praesentium
-            assumenda sint quibusdam, perspiciatis, explicabo sequi fugiat amet
-            animi eos aut. Nobis quisquam reiciendis sunt quis sed magnam
-            consequatur!
+            Explore our premium collection of paid books designed for learners who want in-depth knowledge and advanced skills. These books are carefully selected from trusted authors and publishers to ensure high-quality content, real-world examples, and practical guidance. Whether you want to master a programming language, dive deep into data structures, or advance your career in technology, our paid books offer structured learning and expert-level insights.!
           </p>
           <Link to="/">
             <button className="mt-6 bg-pink-500 text-white px-4 py-2 rounded-md hover:bg-pink-700 duration-300">

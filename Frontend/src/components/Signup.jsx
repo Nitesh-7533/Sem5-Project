@@ -4,6 +4,9 @@ import Login from "./Login";
 import { useForm } from "react-hook-form";
 import axios from "axios";
 import toast from "react-hot-toast";
+
+
+
 function Signup() {
   const location = useLocation();
   const navigate = useNavigate();
@@ -52,6 +55,8 @@ function Signup() {
               </Link>
 
               <h3 className="font-bold text-lg">Signup</h3>
+
+             
               <div className="mt-4 space-y-2">
                 <span>Name</span>
                 <br />
@@ -68,6 +73,8 @@ function Signup() {
                   </span>
                 )}
               </div>
+
+
               {/* Email */}
               <div className="mt-4 space-y-2">
                 <span>Email</span>
@@ -85,6 +92,8 @@ function Signup() {
                   </span>
                 )}
               </div>
+
+
               {/* Password */}
               <div className="mt-4 space-y-2">
                 <span>Password</span>
@@ -96,12 +105,14 @@ function Signup() {
                   {...register("password", { required: true })}
                 />
                 <br />
+                
                 {errors.password && (
                   <span className="text-sm text-red-500">
                     This field is required
                   </span>
                 )}
               </div>
+
               {/* Button */}
               <div className="flex justify-around mt-4">
                 <button className="bg-pink-500 text-white rounded-md px-3 py-1 hover:bg-pink-700 duration-200">
@@ -109,6 +120,7 @@ function Signup() {
                 </button>
                 <p className="text-xl">
                   Have account?{" "}
+                  
                   <button
                     className="underline text-blue-500 cursor-pointer"
                     onClick={() =>

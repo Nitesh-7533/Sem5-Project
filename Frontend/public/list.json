@@ -1,0 +1,101 @@
+[
+{
+"id": 1,
+"name": "HTML & CSS",
+"title": "Design and Build Websites",
+"price": 141,
+"category": "Web Development",
+"images": "https://m.media-amazon.com/images/I/71Nu2eNEk8L._SL1500_.jpg"
+
+},
+{
+"id": 2,
+"name": "Java Programming",
+"title": "Head First Java",
+"price": 220,
+"category": "Programming",
+"images": "https://imgv2-2-f.scribdassets.com/img/word_document/317276308/original/adfe3e30f6/1585165423?v=1"
+
+},
+{
+"id": 3,
+"name": "Python Crash Course",
+"title": "A Hands-On, Project-Based Introduction to Programming",
+"price": 20,
+"category": "Python",
+"images": "https://cdn2.penguin.com.au/covers/original/9781718502703.jpg"
+
+},
+{
+"id": 4,
+"name": "JavaScript",
+"title": "Eloquent JavaScript",
+"price": 0,
+"category": "Free",
+"images": "https://tse1.mm.bing.net/th/id/OIP.qPZxz5_0UTwyQsDi3OL76gHaIO?pid=Api&P=0&h=180"
+
+},
+{
+"id": 5,
+"name": "React JS",
+"title": "The Road to React",
+"price": 240,
+"category": "Frontend Development",
+"images": "https://m.media-amazon.com/images/I/6132FVQ5ZQL.jpg"
+
+},
+{
+"id": 6,
+"name": "Node.js",
+"title": "Node.js Design Patterns",
+"price": 260,
+"category": "Backend Development",
+"images": "https://tse1.mm.bing.net/th/id/OIP.58pv2cCGQ3W2_Kj21daCjwHaJR?pid=Api&P=0&h=180"
+
+},
+{
+"id": 7,
+"name": "MongoDB",
+"title": "MongoDB: The Definitive Guide",
+"price": 0,
+"category": "Free",
+"images": "https://i.pinimg.com/736x/ec/14/2e/ec142e514b4a21c277144f54308e14ce.jpg"
+
+},
+{
+"id": 8,
+"name": "C Programming",
+"title": "The C Programming Language",
+"price": 19,
+"category": "Programming",
+"images": "https://m.media-amazon.com/images/I/711AW7I8e8L.jpg"
+
+},
+{
+"id": 9,
+"name": "Data Structures",
+"title": "Data Structures and Algorithms Made Easy",
+"price": 210,
+"category": "Computer Science",
+"images": "https://m.media-amazon.com/images/I/714+tgyHDRL._SL1360_.jpg"
+
+},
+{
+"id": 11,
+"name": "JavaScript",
+"title": "Eloquent JavaScript",
+"price": 0,
+"category": "Free",
+"images": "https://tse1.mm.bing.net/th/id/OIP.qPZxz5_0UTwyQsDi3OL76gHaIO?pid=Api&P=0&h=180"
+
+},
+{
+"id": 10,
+"name": "Machine Learning with Python",
+"title": "Hands-On Machine Learning with Scikit-Learn",
+"price": 0,
+"category": "Free",
+"images": "https://no-title.victordomingos.com/images/2020/machine_learning_with_python__book_cover.jpg"
+}
+
+]
