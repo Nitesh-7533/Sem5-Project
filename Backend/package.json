@@ -121,8 +121,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon index.js",
-    "start": "nodemon index.js",
-    "build": "echo \"Build completed - ready for deployment\" && node --version && npm --version && npm start"
+    "start": "node index.js",
+    "build": "echo \"Build completed - ready for deployment\" && node --version && npm --version"
   },
   "author": "",
   "license": "ISC"
