@@ -51,10 +51,10 @@ console.log(authUser)
         <a href="/course">Course</a>
       </li>
       <li>
-        <a>Contact</a>
+        <a>Attendance</a>
       </li>
       <li>
-        <a>About</a>
+        <a>Fee Detail</a>
       </li>
     </>
   );
